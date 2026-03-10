@@ -1,6 +1,6 @@
-**# Notifications Microservice**
+**#Notifications Microservice**
 
-**## Overview**
+**##Overview**
 
 This project implements a standalone Notifications microservice using Python and Flask.
 
@@ -13,20 +13,20 @@ A separate test client program was written to demonstrate programmatic communica
 
 **#Installation**
 
-**## 1. Create and activate virtual environment for mac**
+**##1. Create and activate virtual environment for mac**
 
 python3 -m venv .venv
 source .venv/bin/activate
 
-**## 2. Install Dependencies**
+**##2. Install Dependencies**
 
 python3 -m pip install flask requests
 
 ---
 
-**# Running the Microservice**
+**#Running the Microservice**
 
-**## 1. Starting the Miroservice**
+**##1. Starting the Miroservice**
 
 python3 notifications_service.py
 
@@ -34,9 +34,9 @@ python3 notifications_service.py
 
 ---
 
-# How to Request Data from the Microservice
+#How to Request Data from the Microservice
 
-## 1. Sending (Requesting) a Notification
+##1. Sending (Requesting) a Notification
 
         ```python
         import requests
@@ -61,7 +61,7 @@ python3 notifications_service.py
 
 ---
 
-# How to Receive Data from the Microservice
+#How to Receive Data from the Microservice
 
 After sending the request, the client can retrieve data using:
 
@@ -85,3 +85,10 @@ After sending the request, the client can retrieve data using:
   - Receives structured JSON from the microservice
   - Programmatically parses the JSON using response.json()
   - Accesses returned values such as count and notifications
+
+
+
+#UML Diagram 
+
+![JPEG image-4076-8B1A-B3-0](https://github.com/user-attachments/assets/681f70e7-d1f7-4124-9a2f-3e62c69d4ecc)
+
